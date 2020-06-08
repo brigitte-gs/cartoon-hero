@@ -3,6 +3,14 @@ html, body{
 	margin: 0;
 }
 
+p{
+	margin: 10px 0px 0px 0px;
+}
+
+a:hover{
+	color: red;
+}
+
 header{
 	background-color: #d43131;
 	padding: 20px;
@@ -38,8 +46,12 @@ header img{
 	padding: 20px;
 }
 
-.content h2{
-	margin: 5px 0px;
+.title{
+	background-color: #ffcccb;
+	padding: 5px;
+	margin: 0px;
+	text-align: center;
+	font-size: 30px;
 }
 
 img.big-image{
@@ -52,37 +64,6 @@ p.caption{
 	margin: 5px 0px;
 	text-align: center;
 
-}
-
-.title{
-	background-color: #ffcccb;
-	padding: 5px;
-	margin: 0px;
-	text-align: center;
-	font-size: 30px;
-}
-
-a:hover{
-	color: red;
-}
-
-footer{
-	margin-top: 20px;
-	padding: 10px 20px;
-	background-color: lightgrey;
-}
-
-footer ul{
-	text-align: center;
-}
-
-footer ul li{
-	display: inline-block;
-	margin: 1px;
-}
-
-p{
-	margin: 10px 0px 0px 0px;
 }
 
 .sidebyside{
@@ -122,5 +103,22 @@ p{
 	text-decoration: underline;
 	text-decoration-color: white;
 }
+
+footer{
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: lightgrey;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 1px;
+}
+
+
 
 
